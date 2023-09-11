@@ -60,7 +60,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .menu__list{
@@ -81,6 +81,7 @@ body {
 
 .header__content-images{
     padding-bottom: 50px;
+    padding-top: 40px;
     text-align: center;
     position: relative;
     left: 65px;
@@ -90,7 +91,7 @@ body {
     font-size: 220px;
     font-weight: 700;
     position: absolute;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .title--m,
@@ -116,14 +117,14 @@ body {
 
 .title--m{
     position: relative;
-    top: 400px;
-    left: -110px;
+    top: 420px;
+    left: -100px;
     z-index: 1;
 }
 
 .title--ax{
     position: relative;
-    top: 470px;
+    top: 495px;
     left: -110px;
     z-index: -1;
 }
