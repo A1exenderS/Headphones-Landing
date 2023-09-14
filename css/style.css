@@ -426,6 +426,9 @@ body {
     .title--ax{
         font-size: 75px;
     }
+    .header{
+        height: 80vh;
+    }
 }
 
 @media (max-width: 560px){
