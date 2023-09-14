@@ -68,9 +68,29 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(180deg, #C3D5E6 0%, rgba(255, 255, 255, 0.00) 100%);
     z-index: -2;
 }
+
+.header:has(.color--blue.content-item__active)::before {
+    background: linear-gradient(180deg, #C3D5E6 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.header:has(.color--green.content-item__active)::before {
+    background: linear-gradient(180deg, #E0EEDD 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.header:has(.color--white.content-item__active)::before {
+    background: #fff;
+}
+
+.header:has(.color--black.content-item__active)::before {
+    background: linear-gradient(180deg, #858485 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.header:has(.color--red.content-item__active)::before {
+    background: linear-gradient(180deg, #F6DEDA 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
 
 .header__top {
     display: flex;
